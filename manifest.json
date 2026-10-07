@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-easy-icons",
+  "name": "Easy Icons",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Autocompletes Lucide icons and Unicode emojis.",
+  "author": "David Le Duy",
+  "isDesktopOnly": false
+}
