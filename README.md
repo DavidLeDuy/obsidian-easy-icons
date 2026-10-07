@@ -1,2 +1,23 @@
-# obsidian-easy-icons
-Adding easy inline icons for Obsidian
+# Easy Icons
+
+An Obsidian plugin that brings effortless inline icon and emoji autocompletion directly into your notes.
+
+Insert native [Lucide Icons](https://lucide.dev/icons/) and Unicode Emojis anywhere in your text using simple shortcodes that render seamlessly in both **Live Preview** and **Reading View**.
+
+---
+
+## Features
+
+- **Autocomplete Menu:** Type `:` followed by any icon or emoji name to trigger an interactive search popup with live previews.
+- **Native Lucide Support:** Uses Obsidian's built-in Lucide vector icon library without adding extra bundle weight.
+- **Unicode Emoji Support:** Search and insert standard Unicode emojis using familiar shortcode syntax.
+- **Dual-View Rendering:** Shortcodes dynamically transform into rendered SVGs in both **Live Preview Mode** (via CodeMirror 6) and **Reading View** (via Markdown Post-Processor).
+
+---
+
+## Usage
+
+Simply type `:` followed by the name of a **Lucide Icon** or **Unicode Emoji**:
+
+- `:heart:` -> ❤️ Standard heart emoji
+- `:lucide-heart:` -> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart preview-icon"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"/></svg>  Inline Lucide vector icon
